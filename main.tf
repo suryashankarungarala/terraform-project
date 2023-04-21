@@ -25,7 +25,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-02eb7a4783e7e9317"
+  ami             = "ami-06fc49795bc410a0c"
   instance_type   = "t2.micro"
   key_name        = "shankar"
   vpc_security_group_ids = [aws_security_group.three.id]
